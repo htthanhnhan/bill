@@ -1,0 +1,26 @@
+{
+  "fields": [
+    {
+      "fieldName": "products",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "customer",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "total",
+      "fieldType": "BigDecimal",
+      "fieldValidateRules": ["min"],
+      "fieldValidateRulesMin": "0"
+    }
+  ],
+  "relationships": [],
+  "service": "serviceImpl",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": true,
+  "readOnly": false,
+  "pagination": "infinite-scroll",
+  "name": "Bill",
+  "changelogDate": "20220817100638"
+}
